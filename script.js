@@ -43,3 +43,11 @@ function toggle(e){
     if(this.closest('.has-child').classList != 'expand');
     this.closest('.has-child').classList.toggle('expand');
 }
+
+//slider
+
+var swiper = new Swiper(".mySwiper  ", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
